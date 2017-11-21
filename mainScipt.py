@@ -9,7 +9,7 @@ Session = sessionmaker()
 # c = connection.cursor()
 
 # Create Engine
-engine = create_engine('sqlite:///AndyDBq1.sqlite', echo=True)
+engine = create_engine('sqlite:///AndyDB.sqlite', echo=True)
 
 # Create handles to DB via Sessions
 Session = sessionmaker(bind=engine, autocommit=False, autoflush=False)
